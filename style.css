@@ -1,24 +1,52 @@
-.panda-card{
-    border: none;
+.panda-card {
+  border: none;
 }
 
-.panda-card-footer{
-    background-color: white;
-    border: none;
+.panda-card-footer {
+  background-color: white;
+  border: none;
 }
 
-.categories img{
-    width: 100px;
+.categories img {
+  width: 100px;
 }
 
-.panda-slide .carousel-item{
-    background-color: #FCEAE8;
-    border-radius: 0.5em;
+div#carouselExampleControls {
+  background-color: #fceae8;
 }
 
-#subscribe input{
-    border: none;
-    outline: none;
-    padding: 0.4em;
-    border-radius: 5px;
+#subscribe input {
+  border: none;
+  outline: none;
+  padding: 0.4em;
+  border-radius: 5px;
+}
+
+div#carouselExampleControls .carousel-inner {
+  position: relative;
+  max-width: 65%;
+  overflow: hidden;
+}
+
+div#carouselExampleControls .carousel-control-next,
+div#carouselExampleControls .carousel-control-prev {
+  opacity: 1;
+  transition: all 0.15s ease;
+}
+
+div#carouselExampleControls .carousel-control-next {
+  right: 9%;
+}
+
+div#carouselExampleControls .carousel-control-prev {
+  left: 9%;
+}
+
+section#subscribe input {
+  border-radius: 5px 0px 0px 5px;
+  height: 38px;
+}
+
+section#subscribe button {
+  border-radius: 0px 5px 5px 0px;
 }
